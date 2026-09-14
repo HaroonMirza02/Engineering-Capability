@@ -1,0 +1,11 @@
+{
+  "name": "guardrail-harness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prompt-injection guardrail comparison harness",
+  "main": "src/run.js",
+  "scripts": {
+    "test": "node src/run.js",
+    "test:offline": "node src/run.js --skip-classifier"
+  }
+}

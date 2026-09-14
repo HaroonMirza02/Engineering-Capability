@@ -1,0 +1,17 @@
+{
+  "name": "agent-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Support agent with scoped tools and an approval gate",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "inject": "node src/injectionRunner.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.16.0",
+    "mongodb-memory-server": "^10.1.4"
+  }
+}
